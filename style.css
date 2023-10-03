@@ -1,0 +1,19 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #5782ad; /* Color de fondo de la barra de navegación */
+    padding: 10px 0; /* Espaciado interior superior e inferior */
+}
+
+/* Estilos para el enlace del logotipo */
+.navbar-brand {
+    font-size: 24px; /* Tamaño de fuente del logotipo */
+    font-weight: bold; /* Negrita del logotipo */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #000000; /* Color del texto del enlace */
+}
+
+/* Estilos para la imagen del logotipo */
+.navbar-brand img {
+    margin-left: 2%;
+    margin-right: 2%; /* Espaciado a la derecha de la imagen del logotipo */
+}
