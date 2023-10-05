@@ -1,23 +1,61 @@
-/* Estilos para la barra de navegación */
-.navbar {
-    background-color: #5782ad; /* Color de fondo de la barra de navegación */
-    padding: 10px 0; /* Espaciado interior superior e inferior */
-}
-
-/* Estilos para el enlace del logotipo */
-.navbar-brand {
-    font-size: 24px; /* Tamaño de fuente del logotipo */
-    font-weight: bold; /* Negrita del logotipo */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: #000000; /* Color del texto del enlace */
-}
-
-/* Estilos para la imagen del logotipo */
-.navbar-brand img {
+.conteiner {
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: repeat(3, 10%);
+    grid-template-rows: repeat(3, 20%);
+    justify-content: center;
+ 
+ 
+ }
+ 
+ 
+ .btn {
+    background-color: rgb(84, 119, 150);
+    margin-top: 120px;
+ }
+ 
+ 
+ p {
+    margin-top: 29%;
+    color: black;
+    background-color: rgb(84, 119, 150);
+ 
+ 
+ }
+ 
+ 
+ .navbar {
+    background-color: rgb(84, 119, 150);
+    padding: 10px 0;
+ }
+ 
+ 
+ .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+ }
+ 
+ 
+ .navbar-brand img {
     margin-left: 2%;
-    margin-right: 2%; /* Espaciado a la derecha de la imagen del logotipo */
-}
-
-body{
-    background-color: #000000;
-}
+    margin-right: 2%;
+ }
+ 
+ 
+ body {
+    background-color: rgb(24, 97, 46);
+ }
+ 
+ 
+ .elem {
+    background-color: aqua;
+    height: 200px;
+ }
+ 
+ 
+ .elem:nth-child(2n) {
+    background-color: blueviolet;
+ }
+ 
