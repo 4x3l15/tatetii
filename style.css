@@ -17,3 +17,7 @@
     margin-left: 2%;
     margin-right: 2%; /* Espaciado a la derecha de la imagen del logotipo */
 }
+
+body{
+    background-color: #000000;
+}
