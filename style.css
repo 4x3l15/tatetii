@@ -1,7 +1,7 @@
 .conteiner {
     display: grid;
     grid-template-columns: repeat(3, 10%);
-    grid-template-rows: repeat( 4,20%);
+    grid-template-rows: repeat( 3,20%);
     justify-content: center;
     margin-top: 5%;
     margin-bottom: -40%;
@@ -60,9 +60,13 @@
  }
  
  #abrirModal{
-    background-color: rgb(84, 119, 150);
-    border: 20px;
-    margin-top: -20%;
+   display: block;
+   padding: 10px 20px;
+   background-color: #3498db;
+   color:black;
+   font-size: 18px;
+   border-color: black;
+   cursor: pointer;
  }
 
  .modal {
@@ -92,4 +96,14 @@
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+
+#reiniciar {
+   display: block;
+   padding: 10px 20px;
+   background-color: #3498db;
+   color: black;
+   font-size: 18px;
+   border-color: black;
+   cursor: pointer;
 }
