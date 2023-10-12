@@ -37,12 +37,40 @@
    <button id="abrirModal">Empieza a jugar</button>
 
    <div id="miModal" class="modal">
-       <div class="modal-contenido">
-           <span class="cerrar-modal" id="cerrarModal">&times;</span>
-           <h2>Elige al jugador 1</h2>
-           <p>Contenido del modal.</p>
-       </div>
-   </div>
+    <div class="modal-contenido">
+        <span class="cerrar-modal" id="cerrarModal">&times;</span>
+        <h2>Elige al jugador 1</h2>
+    <p><label for="player1">Jugador 1:</label>
+        <input type="text" id="player1" placeholder="Nombre del Jugador 1"></p>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                X
+            </label>
+    </div>
+    <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                O
+            </label>
+    </div>
+        <h2>Elige al jugador 2</h2>
+    <p><label for="player2">Jugador 2:</label>
+    <input type="text" id="player2" placeholder="Nombre del Jugador 2"></p>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+            X
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            O
+        </label>
+        <button id="Guardar">Guardar Datos</button>
+    </div>
+</div>
 
 
 
