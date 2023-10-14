@@ -7,16 +7,11 @@
    margin-bottom: -40%;
    border: black;
 }
-#guardar{
-background-color: rgb(84, 119, 150);
-}
-
 
 .btn {
    background-color: rgb(84, 119, 150);
    margin-top: 50%;
 }
-
 
 p {
    top: -47%;
@@ -24,14 +19,10 @@ p {
    background-color: rgb(84, 119, 150);
 }
 
-
 .navbar {
    background-color: rgb(84, 119, 150);
    padding: 10px 0;
 }
-
-
-
 
 .navbar-brand {
    font-size: 24px;
@@ -40,34 +31,24 @@ p {
    color: black;
 }
 
-
 .navbar-brand img {
    margin-left: 2%;
    margin-right: 2%;
 }
 
-
-
-
 body {
    background-color: rgb(24, 97, 46);
 }
-
-
-
 
 .elem {
    background-color: aqua;
    height: 200px;
 }
 
-
-
-
 .elem:nth-child(2n) {
    background-color: blueviolet;
+   height: 200px;
 }
-
 
 #abrirModal{
 display: block;
@@ -79,14 +60,12 @@ border-color: black;
 cursor: pointer;
 }
 
-
 .modal {
    display: none;
    position: fixed;
-   top: 30px;
-   left: 0;
+   top: 20px;
    width: 50%;
-   height: 40%;
+   height: 20%;
    background-color: rgba(0, 0, 0, 0.7);
    z-index: 1;
    justify-content: center;
@@ -101,7 +80,6 @@ cursor: pointer;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
 .cerrar-modal {
    position: absolute;
    top: 10px;
@@ -109,7 +87,6 @@ cursor: pointer;
    font-size: 20px;
    cursor: pointer;
 }
-
 
 #reiniciar {
 display: block;
