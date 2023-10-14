@@ -37,20 +37,19 @@ reiniciarBoton.addEventListener('click', reiniciarJuego);
 function manejarClic(event) {
     const celda = event.target;
 
-
     if (!celda.innerText && !juegoTerminado) {
         celda.innerText = jugadorActual;
         celda.classList.add('marcada');
 
-
         if (verificarGanador()) {
-            alert(`¡Jugador ${jugadorActual} ha ganado!`);
+            alert(`¡${nombreJugadorActual} ha ganado!`);
             juegoTerminado = true;
         } else if ([...celdas].every(c => c.innerText)) {
             alert('¡Empate!');
             juegoTerminado = true;
         } else {
             jugadorActual = jugadorActual === 'X' ? 'O' : 'X';
+            nombreJugadorActual = jugadorActual === 'X' ? nombreJugadorX : nombreJugadorO;
         }
     }
 }
@@ -79,3 +78,6 @@ function reiniciarJuego() {
     jugadorActual = 'X';
     juegoTerminado = false;
 }
+
+
+

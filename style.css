@@ -5,10 +5,13 @@
    justify-content: center;
    margin-top: 5%;
    margin-bottom: -40%;
+   border: black;
 }
-.btnn{
+#guardar{
 background-color: rgb(84, 119, 150);
 }
+
+
 .btn {
    background-color: rgb(84, 119, 150);
    margin-top: 50%;
@@ -16,7 +19,7 @@ background-color: rgb(84, 119, 150);
 
 
 p {
-   margin-top: 29%;
+   top: -47%;
    color: black;
    background-color: rgb(84, 119, 150);
 }
@@ -89,7 +92,6 @@ cursor: pointer;
    justify-content: center;
    align-items: center;
 }
-
 
 .modal-contenido {
    background-color: #fff;
