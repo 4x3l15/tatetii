@@ -3,7 +3,7 @@
    grid-template-columns: repeat(3, 10%);
    grid-template-rows: repeat( 3,20%);
    justify-content: center;
-   margin-top: 5%;
+   margin-top: -5%;
    margin-bottom: -40%;
    border: black;
 }
@@ -41,13 +41,18 @@ body {
 }
 
 .elem {
-   background-color: aqua;
+   background-color: rgb(2, 2, 2);
+   color: #fff;
    height: 200px;
+   margin-top: 50%;
+   font-size: 110px;
 }
 
 .elem:nth-child(2n) {
-   background-color: blueviolet;
+   background-color: rgb(3, 2, 30);
    height: 200px;
+   margin-top: 50%;
+
 }
 
 #abrirModal{
