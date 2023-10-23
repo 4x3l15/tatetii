@@ -21,7 +21,6 @@ iniciarJuegoBtn.addEventListener("click", () => {
         jugadoresRegistrados = true;
         modal.style.display = "none";
         Turno.innerText = `Turno de ${nombreJugadorX}`;
-        iniciarJuego();
     } else {
         alert("Por favor, ingresa los nombres de ambos jugadores antes de jugar.");
     }
@@ -50,7 +49,7 @@ function manejarClic(event) {
             if (verificarGanador()) {
                 alert(`¡${nombreJugadorActual} ha ganado!`);
                 juegoTerminado = true;
-            } else if ([...celdas].every(c => c.innerText)) {
+            } else if ([...celdas].every(celdas => celdas.innerText)) {
                 alert('¡Empate!');
                 juegoTerminado = true;
             } else {
