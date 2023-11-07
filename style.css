@@ -37,11 +37,11 @@ p {
 }
 
 body {
-   background-color: rgb(24, 97, 46);
+   background-color: rgb(237, 236, 255);
 }
 
 .elem {
-   background-color: rgb(2, 2, 2);
+   background-color: rgb(40, 62, 131);
    color: #fff;
    height: 200px;
    margin-top: 50%;
@@ -49,7 +49,7 @@ body {
 }
 
 .elem:nth-child(2n) {
-   background-color: rgb(3, 2, 30);
+   background-color: rgb(99, 96, 173);
    height: 200px;
    margin-top: 50%;
 
